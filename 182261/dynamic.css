@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+a {
+    color: var(--color--body-foreground);
+    background-color: var(--color--nav-link-background);
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    flex-grow: 1;
+    text-decoration: none;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+a:hover {
+    background-color: var(--color--nav-link-background--hover);
+}
+
+p {
+    font-size: 1rem;
+}

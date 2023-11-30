@@ -159,7 +159,6 @@ main {
 }
 
 .logo svg {
-  transform: rotate(-180deg);
   transition: var(--transition-speed);
 }
 
@@ -177,7 +176,7 @@ main {
   display: block !important;
 }
 
-.navbar:hover ul .logoRes a svg{
+.navbar:hover ul .logo a svg{
   transform: rotate(-180deg);
   margin-left: 11rem;
 }
