@@ -3,7 +3,11 @@
 
 خروجی خواسته شده
 
-<img src="challenge-02.mp4"/>
+<video  controls>
+  <source src="challenge-02.mp4" type="video/mp4">
+  <source src="challenge-02.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 خواسته های مسئله
 
