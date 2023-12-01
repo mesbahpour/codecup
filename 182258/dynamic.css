@@ -1,1 +1,60 @@
-/* write your code here ... */
+main {
+    display: flex;
+    overflow: hidden;
+    width: 50rem;
+    border-radius: 0.2rem;
+    scroll-behavior: smooth;
+}
+
+form {
+    flex: 0 0 60%;
+    padding: 2rem;
+    gap: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label > span {
+    font-size: 0.8rem;
+}
+
+label > img {
+    width: 1.2rem;
+}
+
+label > input {
+    background-color: var(--color--form-input-background);
+}
+
+label > input:invalid {
+    background-color: var(--color--form-input-background--invalid);
+}
+
+button{
+    background-attachment: var(--color--form-button-background);
+    color: var(--color--form-button-foreground);
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color--form-button-background--hover);
+}
+
+p {
+    color: var(--color--form-paragraph-foreground);
+}
+
+a {
+    color: var(--color--form-link-foreground);
+}
+
+section {
+    width: 40%;
+    padding: 2rem;
+}
+
+section > img {
+    width: 16rem;
+}
+
