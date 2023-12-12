@@ -9,4 +9,5 @@
   <li><a href="https://github.com/mesbahpour/codecup/tree/main/21220"> خالی‌های رنگی</a></li>
   <li><a href="https://github.com/mesbahpour/codecup/tree/main/15681">دیدگاه ساده</a></li>
   <li><a href="https://github.com/mesbahpour/codecup/tree/main/15682">جابجایی ساده</a></li>
+    <li><a href="https://github.com/mesbahpour/codecup/tree/main/15688">دوزیستان ناکام</a></li>
 </ol>
